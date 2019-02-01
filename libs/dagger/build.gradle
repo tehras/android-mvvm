@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 
 apply from: "$rootDir/gradle/libs-base.gradle"
 
+group = 'com.github.tehras.mvvm-dagger'
+
 dependencies {
     implementation deps.dagger
     kapt deps.daggerApt

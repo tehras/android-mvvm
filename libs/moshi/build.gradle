@@ -1,3 +1,5 @@
 apply from: "$rootDir/gradle/libs-base.gradle"
 apply from: "$rootDir/gradle/dagger.gradle"
 apply from: "$rootDir/gradle/moshi.gradle"
+
+group = 'com.github.tehras.mvvm-moshi'

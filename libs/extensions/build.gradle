@@ -1,5 +1,7 @@
 apply from: "$rootDir/gradle/libs-base.gradle"
 
+group = 'com.github.tehras.mvvm-extensions'
+
 dependencies {
     implementation deps.appcompat
 }

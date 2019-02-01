@@ -1,6 +1,8 @@
 apply from: "$rootDir/gradle/libs-base.gradle"
 apply from: "$rootDir/gradle/dagger.gradle"
 
+group = 'com.github.tehras.mvvm-glide'
+
 dependencies {
     api deps.glide
     kapt deps.glideApt

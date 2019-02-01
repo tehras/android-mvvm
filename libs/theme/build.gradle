@@ -1,5 +1,7 @@
 apply from: "$rootDir/gradle/libs-base.gradle"
 
+group = 'com.github.tehras.mvvm-theme'
+
 dependencies {
     implementation deps.appcompat
     implementation deps.design
