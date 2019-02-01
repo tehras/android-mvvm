@@ -1,0 +1,10 @@
+include ':app',
+
+        ':libs:arch',
+        ':libs:extensions',
+        ':libs:dagger',
+        ':libs:theme',
+        ':libs:log',
+        ':libs:moshi',
+        ':libs:glide',
+        ':libs:rest-api'

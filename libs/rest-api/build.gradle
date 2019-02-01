@@ -1,0 +1,8 @@
+apply from: "$rootDir/gradle/libs-base.gradle"
+apply from: "$rootDir/gradle/dagger.gradle"
+apply from: "$rootDir/gradle/retrofit.gradle"
+
+dependencies {
+    implementation deps.libs.moshi
+    implementation deps.libs.log
+}

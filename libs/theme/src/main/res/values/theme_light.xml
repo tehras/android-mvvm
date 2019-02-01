@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Diablo.Light" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+        <item name="colorPrimaryLight">@color/primary_color_light_light</item>
+        <item name="colorPrimary">@color/primary_color_light</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark_light</item>
+
+        <item name="colorAccent">@color/secondary_color_light</item>
+        <item name="colorSecondaryLight">@color/secondary_color_light_light</item>
+        <item name="colorSecondaryDark">@color/secondary_color_dark_light</item>
+
+        <item name="appBar">@color/app_bar_light</item>
+        <item name="bgPrimary">@color/bg_primary_light</item>
+        <item name="bgSecondary">@color/bg_secondary_light</item>
+        <item name="bgPrimaryTransparent">@color/bg_primary_light_transparent</item>
+
+        <item name="typePrimary">@color/type_primary_light</item>
+        <item name="typeSecondary">@color/type_secondary_light</item>
+
+        <item name="iconPrimary">@color/icon_primary_light</item>
+
+        <item name="dividerPrimary">@color/divider_light</item>
+
+        <item name="actionOverflowButtonStyle">@style/ActionOverflowButtonStyle</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarNavigationButtonStyle</item>
+
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <!--- For Bottom Sheet -->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetModalStyle</item>
+    </style>
+
+    <style name="BottomSheetModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_rounded</item>
+    </style>
+
+    <!-- Bottom Sheet Ended -->
+
+    <style name="ToolbarNavigationButtonStyle" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@color/type_primary_light</item>
+    </style>
+
+    <!-- This style is where you define the tint color of your overflow menu button -->
+    <style name="ActionOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/type_primary_light</item>
+    </style>
+
+    <style name="Theme.Diablo.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Diablo.DayNight" parent="Theme.Movies.Dark" />
+    <style name="Theme.Diablo.DayNight.NoActionBar" parent="Theme.Movies.Dark.NoActionBar" />
+</resources>

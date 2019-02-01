@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.Diablo.DayNight" parent="Theme.Diablo.Light"/>
+    <style name="Theme.Diablo.DayNight.NoActionBar" parent="Theme.Diablo.Light.NoActionBar"/>
+</resources>

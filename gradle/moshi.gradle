@@ -1,0 +1,6 @@
+dependencies {
+    implementation deps.moshi
+    implementation deps.moshiKotlin
+
+    kapt deps.moshiApt
+}

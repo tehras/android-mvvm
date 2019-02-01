@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+
+apply from: "$rootDir/gradle/libs-base.gradle"
+
+dependencies {
+    implementation deps.dagger
+    kapt deps.daggerApt
+
+    implementation deps.appcompat
+}

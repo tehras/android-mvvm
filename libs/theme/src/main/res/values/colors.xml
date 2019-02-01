@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors for the LIGHT Theme -->
+    <color name="app_bar_light">@color/primary_color_light_light</color>
+    <color name="bg_primary_light">@color/primary_color_light_light</color>
+    <color name="bg_secondary_light">@color/primary_color_dark_light</color>
+    <color name="bg_primary_light_transparent">#99ffffff</color>
+    <color name="type_primary_light">#212121</color>
+    <color name="type_secondary_light">#616161</color>
+
+    <color name="icon_primary_light">#212121</color>
+
+    <color name="divider_light">#37474f</color>
+
+    <color name="primary_color_light_light">#ffffff</color>
+    <color name="primary_color_light">#fafafa</color>
+    <color name="primary_color_dark_light">#4f5b62</color>
+
+    <color name="secondary_color_light_light">#ff77a9</color>
+    <color name="secondary_color_light">#ec407a</color>
+    <color name="secondary_color_dark_light">#b4004e</color>
+
+    <!-- Colors for the DARK Theme -->
+
+    <color name="app_bar_dark">@color/primary_color_dark_dark</color>
+    <color name="bg_primary_dark">@color/primary_color_dark_dark</color>
+    <color name="bg_secondary_dark">@color/primary_color_dark</color>
+    <color name="bg_primary_dark_transparent">#99000a12</color>
+    <color name="type_primary_dark">#fafafa</color>
+    <color name="type_secondary_dark">#bdbdbd</color>
+
+    <color name="icon_primary_dark">#fafafa</color>
+
+    <color name="divider_dark">#cfd8dc</color>
+
+    <color name="primary_color_light_dark">#4f5b62</color>
+    <color name="primary_color_dark">#263238</color>
+    <color name="primary_color_dark_dark">#000a12</color>
+
+    <color name="secondary_color_light_dark">#ff77a9</color>
+    <color name="secondary_color_dark">#ec407a</color>
+    <color name="secondary_color_dark_dark">#b4004e</color>
+</resources>

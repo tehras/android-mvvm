@@ -1,0 +1,6 @@
+dependencies {
+    api deps.libs.dagger
+    api deps.dagger
+
+    kapt deps.daggerApt
+}

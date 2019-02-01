@@ -1,0 +1,16 @@
+apply from: "$rootDir/gradle/libs-base.gradle"
+apply from: "$rootDir/gradle/dagger.gradle"
+
+dependencies {
+    implementation deps.appcompat
+
+    implementation deps.viewModel
+    implementation deps.viewModelExt
+    implementation deps.viewModelCommon
+    implementation deps.viewModelRuntime
+
+    api deps.rxJava
+    api deps.rxAndroid
+    api deps.rxKotlin
+    api deps.rxRelay
+}

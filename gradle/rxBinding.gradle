@@ -1,0 +1,11 @@
+dependencies {
+    implementation deps.rxBinding
+    implementation deps.rxBindingApp
+    implementation deps.rxBindingDrawer
+    implementation deps.rxBindingLeanback
+    implementation deps.rxBindingRv
+    implementation deps.rxBindingSlide
+    implementation deps.rxBindingSwipe
+    implementation deps.rxBindingViewPager
+    implementation deps.rxBindingDesign
+}

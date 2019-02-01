@@ -1,0 +1,13 @@
+apply plugin: 'com.android.application'
+apply from: "$rootDir/gradle/android.gradle"
+apply from: "$rootDir/gradle/ui.gradle"
+apply from: "$rootDir/gradle/dagger.gradle"
+apply from: "$rootDir/gradle/moshi.gradle"
+apply from: "$rootDir/gradle/glide.gradle"
+apply from: "$rootDir/gradle/version.gradle"
+apply from: "$rootDir/gradle/appcenter.gradle"
+
+dependencies {
+    implementation deps.libs.moshi
+    implementation deps.libs.restApi
+}

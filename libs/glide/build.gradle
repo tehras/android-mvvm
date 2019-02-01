@@ -1,0 +1,7 @@
+apply from: "$rootDir/gradle/libs-base.gradle"
+apply from: "$rootDir/gradle/dagger.gradle"
+
+dependencies {
+    api deps.glide
+    kapt deps.glideApt
+}

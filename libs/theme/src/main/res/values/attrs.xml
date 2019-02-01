@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appBar" format="reference|color" />
+    <attr name="bgPrimary" format="reference|color" />
+    <attr name="bgSecondary" format="reference|color" />
+    <attr name="bgPrimaryTransparent" format="reference|color" />
+
+    <attr name="iconPrimary" format="reference|color" />
+
+    <attr name="typePrimary" format="reference|color" />
+    <attr name="typeSecondary" format="reference|color" />
+    <attr name="typeTertiary" format="reference|color" />
+
+    <attr name="dividerPrimary" format="reference|color" />
+
+    <attr name="colorPrimaryLight" format="reference|color" />
+    <attr name="colorSecondaryLight" format="reference|color" />
+    <attr name="colorSecondaryDark" format="reference|color" />
+</resources>

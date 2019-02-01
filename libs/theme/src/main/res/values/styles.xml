@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CollapsingAppBar" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">?attr/typePrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CollapsingAppBar.Expanded">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="CollapsingAppBar.Expanded.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CollapsingAppBar.Collapsed">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

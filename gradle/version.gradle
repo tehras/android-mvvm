@@ -1,0 +1,11 @@
+def versionMajor = 0
+def versionMinor = 1
+def versionPatch = 0
+def versionBuild = Integer.parseInt(System.getenv("APPCENTER_BUILD_ID") ?: "0")
+
+android {
+    defaultConfig {
+        versionCode((versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100) * 100000 + versionBuild)
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+    }
+}

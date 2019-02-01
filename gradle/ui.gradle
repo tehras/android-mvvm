@@ -1,0 +1,18 @@
+apply from: "$rootDir/gradle/deps.gradle"
+apply from: "$rootDir/gradle/kotlin.gradle"
+apply from: "$rootDir/gradle/rxBinding.gradle"
+
+dependencies {
+    implementation deps.appcompat
+    implementation deps.ktx
+    implementation deps.constraint
+    implementation deps.coordinator
+    implementation deps.design
+    implementation deps.recyclerViewAdapter
+    implementation deps.lottie
+
+    implementation deps.libs.arch
+    implementation deps.libs.ext
+    implementation deps.libs.theme
+    implementation deps.libs.log
+}

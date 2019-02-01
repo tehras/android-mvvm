@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">8dp</dimen>
+
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_padding_small">8dp</dimen>
+
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_standard">4dp</dimen>
+    <dimen name="elevation_large">6dp</dimen>
+
+    <dimen name="corner_radius_default">8dp</dimen>
+
+    <dimen name="movie_image_height">120dp</dimen>
+    <dimen name="movie_image_width">80dp</dimen>
+
+    <dimen name="profile_width">150dp</dimen>
+    <dimen name="profile_height">225dp</dimen>
+
+    <dimen name="rating_circle_size">48dp</dimen>
+</resources>

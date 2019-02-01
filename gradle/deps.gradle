@@ -1,0 +1,72 @@
+ext {
+    def rxJavaVer = "2.2.0"
+    def rxBindingsVer = "3.0.0-alpha2"
+    def daggerVer = "2.21"
+    def retrofitVer = "2.4.0"
+    def moshiVer = "1.6.0"
+    def glideVer = '4.8.0'
+    def archVer = '2.0.0-beta01'
+    def appCenterSdkVersion = '1.11.2'
+
+    deps = [
+            libs               : [
+                    arch   : project(':libs:arch'),
+                    dagger : project(':libs:dagger'),
+                    theme  : project(':libs:theme'),
+                    log    : project(':libs:log'),
+                    moshi  : project(':libs:moshi'),
+                    ext    : project(':libs:extensions'),
+                    glide  : project(':libs:glide'),
+                    restApi: project(':libs:rest-api')
+            ],
+
+            appcompat          : 'androidx.appcompat:appcompat:1.1.0-alpha01',
+            ktx                : 'androidx.core:core-ktx:1.1.0-alpha03',
+            constraint         : 'androidx.constraintlayout:constraintlayout:1.1.3',
+            coordinator        : "androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01",
+            design             : "com.google.android.material:material:1.0.0",
+
+            recyclerViewAdapter: "jp.wasabeef:recyclerview-animators:3.0.0",
+            lottie             : "com.airbnb.android:lottie:3.0.0-beta1",
+
+            viewModel          : "androidx.lifecycle:lifecycle-viewmodel:$archVer",
+            viewModelExt       : "androidx.lifecycle:lifecycle-extensions:$archVer",
+            viewModelCommon    : "androidx.lifecycle:lifecycle-common:$archVer",
+            viewModelRuntime   : "androidx.lifecycle:lifecycle-runtime:$archVer",
+            viewModelProcessor : "androidx.lifecycle:lifecycle-compiler:$archVer",
+
+            rxJava             : "io.reactivex.rxjava2:rxjava:$rxJavaVer",
+            rxKotlin           : "io.reactivex.rxjava2:rxkotlin:$rxJavaVer",
+            rxAndroid          : "io.reactivex.rxjava2:rxandroid:2.1.0",
+            rxRelay            : "com.jakewharton.rxrelay2:rxrelay:2.0.0",
+
+            rxBinding          : "com.jakewharton.rxbinding3:rxbinding-core:$rxBindingsVer",
+            rxBindingApp       : "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingsVer",
+            rxBindingDrawer    : "com.jakewharton.rxbinding3:rxbinding-drawerlayout:$rxBindingsVer",
+            rxBindingLeanback  : "com.jakewharton.rxbinding3:rxbinding-leanback:$rxBindingsVer",
+            rxBindingRv        : "com.jakewharton.rxbinding3:rxbinding-recyclerview:$rxBindingsVer",
+            rxBindingSlide     : "com.jakewharton.rxbinding3:rxbinding-slidingpanelayout:$rxBindingsVer",
+            rxBindingSwipe     : "com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:$rxBindingsVer",
+            rxBindingViewPager : "com.jakewharton.rxbinding3:rxbinding-viewpager:$rxBindingsVer",
+            rxBindingDesign    : "com.jakewharton.rxbinding3:rxbinding-material:$rxBindingsVer",
+
+            dagger             : "com.google.dagger:dagger:$daggerVer",
+            daggerApt          : "com.google.dagger:dagger-compiler:$daggerVer",
+
+            retrofit           : "com.squareup.retrofit2:retrofit:$retrofitVer",
+            retrofitMoshi      : "com.squareup.retrofit2:converter-moshi:$retrofitVer",
+            retrofitRx         : "com.squareup.retrofit2:adapter-rxjava2:$retrofitVer",
+
+            glide              : "com.github.bumptech.glide:glide:$glideVer",
+            glideApt           : "com.github.bumptech.glide:compiler:$glideVer",
+
+            moshi              : "com.squareup.moshi:moshi:$moshiVer",
+            moshiKotlin        : "com.squareup.moshi:moshi-kotlin:$moshiVer",
+            moshiApt           : "com.squareup.moshi:moshi-kotlin-codegen:$moshiVer",
+
+            appCenterAnalytics : "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}",
+            appCenterCrashes   : "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}",
+
+            timber             : "com.jakewharton.timber:timber:4.7.1"
+    ]
+}
