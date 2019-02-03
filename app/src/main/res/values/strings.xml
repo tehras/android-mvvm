@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Demo</string>
+    <string name="breed_list_title">Breeds</string>
+    <string name="breed_details_image">Breed details image</string>
+    <string name="new_dog">New Dog</string>
+    <string name="breed_image">Breed image</string>
+    <string name="search_layout_text_hint">Bark Bark</string>
+    <string name="clear_icon">Clear Icon</string>
 </resources>

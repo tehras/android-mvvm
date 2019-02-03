@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.Movies.Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Theme.Mvvm.Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
 
         <item name="colorPrimaryLight">@color/primary_color_dark_dark</item>
         <item name="colorPrimary">@color/primary_color_dark</item>
@@ -47,7 +47,7 @@
         <item name="android:tint">@color/type_primary_dark</item>
     </style>
 
-    <style name="Theme.Movies.Dark.NoActionBar">
+    <style name="Theme.Mvvm.Dark.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

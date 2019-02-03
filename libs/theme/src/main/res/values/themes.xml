@@ -1,4 +1,4 @@
 <resources>
-    <style name="Theme.Diablo.DayNight" parent="Theme.Diablo.Light"/>
-    <style name="Theme.Diablo.DayNight.NoActionBar" parent="Theme.Diablo.Light.NoActionBar"/>
+    <style name="Theme.Mvvm.DayNight" parent="Theme.Mvvm.Light"/>
+    <style name="Theme.Mvvm.DayNight.NoActionBar" parent="Theme.Mvvm.Light.NoActionBar"/>
 </resources>

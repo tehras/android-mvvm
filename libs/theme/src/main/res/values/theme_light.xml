@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.Diablo.Light" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Theme.Mvvm.Light" parent="Theme.AppCompat.DayNight.DarkActionBar">
 
         <item name="colorPrimaryLight">@color/primary_color_light_light</item>
         <item name="colorPrimary">@color/primary_color_light</item>
@@ -49,7 +49,7 @@
         <item name="android:tint">@color/type_primary_light</item>
     </style>
 
-    <style name="Theme.Diablo.Light.NoActionBar">
+    <style name="Theme.Mvvm.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

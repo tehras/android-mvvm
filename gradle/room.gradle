@@ -1,0 +1,5 @@
+dependencies {
+    implementation deps.roomRuntime
+    implementation deps.roomRx
+    kapt deps.roomKapt
+}

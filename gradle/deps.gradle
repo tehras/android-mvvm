@@ -7,6 +7,7 @@ ext {
     def glideVer = '4.8.0'
     def archVer = '2.0.0-beta01'
     def appCenterSdkVersion = '1.11.2'
+    def roomVer = "2.1.0-alpha04"
 
     deps = [
             libs               : [
@@ -67,6 +68,10 @@ ext {
             appCenterAnalytics : "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}",
             appCenterCrashes   : "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}",
 
-            timber             : "com.jakewharton.timber:timber:4.7.1"
+            timber             : "com.jakewharton.timber:timber:4.7.1",
+
+            roomRuntime        : "androidx.room:room-runtime:$roomVer",
+            roomKapt           : "androidx.room:room-compiler:$roomVer",
+            roomRx             : "androidx.room:room-rxjava2:$roomVer"
     ]
 }

@@ -5,6 +5,7 @@ apply from: "$rootDir/gradle/dagger.gradle"
 apply from: "$rootDir/gradle/moshi.gradle"
 apply from: "$rootDir/gradle/glide.gradle"
 apply from: "$rootDir/gradle/version.gradle"
+apply from: "$rootDir/gradle/room.gradle"
 apply from: "$rootDir/gradle/appcenter.gradle"
 
 dependencies {

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dog_image_size">120dp</dimen>
+    <dimen name="dog_image_corners">8dp</dimen>
+
+    <dimen name="breed_name_size">20sp</dimen>
+</resources>

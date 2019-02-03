@@ -1,10 +1,11 @@
-/*
- * Copyright (c) 2019 Evernote Corporation. All rights reserved.
- */
 package com.github.tehras.base.demo
 
 import android.app.Application
 import com.github.tehras.base.dagger.components.MainComponent
+import com.github.tehras.base.demo.data.remote.DogApiModule
+import com.github.tehras.base.demo.data.room.AppDatabaseModule
+import com.github.tehras.base.demo.ui.breeddetail.BreedDetailsComponentCreator
+import com.github.tehras.base.demo.ui.doglist.DogListComponentCreator
 import com.github.tehras.base.moshi.MoshiModule
 import com.github.tehras.base.restapi.RetrofitModule
 import com.github.tehras.dagger.modules.AppModule
@@ -18,11 +19,14 @@ import dagger.Component
     modules = [
         AppModule::class,
         MoshiModule::class,
-        RetrofitModule::class
+        RetrofitModule::class,
+        AppDatabaseModule::class,
+        DogApiModule::class
     ]
 )
 interface DemoAppComponent :
-    MainComponent {
+    MainComponent,
+    UiComponentCreators {
 
     fun plusApplication(application: DemoApplication)
 
@@ -35,3 +39,5 @@ interface DemoAppComponent :
         fun build(): DemoAppComponent
     }
 }
+
+interface UiComponentCreators : DogListComponentCreator, BreedDetailsComponentCreator
