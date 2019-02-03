@@ -28,5 +28,13 @@ class DemoActivity : AppCompatActivity() {
             .addToBackStack(fragment::class.simpleName)
             .commit()
     }
+
+    override fun onBackPressed() {
+        if (supportFragmentManager.backStackEntryCount == 1) {
+            finish()
+        } else {
+            super.onBackPressed()
+        }
+    }
 }
  
