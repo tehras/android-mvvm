@@ -1,4 +1,4 @@
-# android-mvvm
+# Android-MVVM
 
 Small little base project to support:
 
@@ -27,3 +27,7 @@ com.github.tehras.android-mvvm:dagger:0.1.0
 com.github.tehras.android-mvvm:moshi:0.1.0
 com.github.tehras.android-mvvm:glide:0.1.0
 ```
+
+# Demo
+
+![Demoo App](/assets/demo-gif.gif "Demo Video)
