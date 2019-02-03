@@ -30,4 +30,5 @@ com.github.tehras.android-mvvm:glide:0.1.0
 
 # Demo
 
-![Demoo App](/assets/demo-gif.gif "Demo Video)
+![Demo GIF](/assets/demo-gif.gif "Demo GIF")
+
