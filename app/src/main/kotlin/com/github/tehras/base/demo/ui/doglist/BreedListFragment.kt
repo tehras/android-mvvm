@@ -12,7 +12,6 @@ import com.github.tehras.base.arch.viewModel
 import com.github.tehras.base.dagger.components.findComponent
 import com.github.tehras.base.demo.DemoActivity
 import com.github.tehras.base.demo.R
-import com.github.tehras.base.demo.data.room.entities.Breed
 import com.github.tehras.base.demo.ui.breeddetail.BreedDetailsFragment
 import com.github.tehras.base.demo.ui.doglist.adapter.BreedListAdapter
 import com.github.tehras.base.ext.context.calculateNumberOfColumns
@@ -20,10 +19,8 @@ import com.github.tehras.base.ext.context.hideKeyboard
 import com.jakewharton.rxbinding3.appcompat.navigationClicks
 import com.jakewharton.rxbinding3.view.clicks
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.functions.Consumer
 import io.reactivex.rxkotlin.plusAssign
 import kotlinx.android.synthetic.main.fragment_dog_list.*
-import timber.log.Timber
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

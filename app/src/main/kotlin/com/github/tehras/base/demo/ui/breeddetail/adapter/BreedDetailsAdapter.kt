@@ -63,6 +63,7 @@ class BreedDetailsViewHolder(override val containerView: View) : RecyclerView.Vi
             .with(breed_details_image)
             .load(url)
             .centerCrop()
+            .placeholder(R.drawable.ic_big_dog)
             .transform(RoundedCorners(containerView.context.resources.getDimensionPixelSize(R.dimen.dog_image_corners)))
             .into(breed_details_image)
     }

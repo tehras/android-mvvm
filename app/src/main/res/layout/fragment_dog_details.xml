@@ -12,6 +12,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:navigationIcon="@drawable/ic_back"
+            android:background="?bgPrimary"
+            android:elevation="@dimen/elevation_standard"
             android:layout_height="wrap_content"/>
 
     <androidx.recyclerview.widget.RecyclerView

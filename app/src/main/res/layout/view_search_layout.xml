@@ -7,6 +7,11 @@
         android:padding="@dimen/default_padding"
         android:focusable="true"
         android:clickable="true"
+        android:layout_marginEnd="@dimen/default_padding"
+        android:layout_marginStart="@dimen/default_padding"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:elevation="@dimen/elevation_standard"
         android:layout_height="wrap_content">
 
     <EditText
